@@ -4,7 +4,7 @@ Sure! Here’s a template for a README file that you can use for your scientific
 
 # Scientific Calculator
 
-![Icon](path-to-your-icon.png)
+![Icon](https://github.com/Cal-ly/ScientificCalculator/blob/master/content/iconCalcNBG.ico)
 
 A simple yet powerful scientific calculator built using C# and WPF. This calculator supports both basic arithmetic operations and advanced scientific functions. It is designed with a clean user interface and includes a history log for tracking previous calculations.
 
