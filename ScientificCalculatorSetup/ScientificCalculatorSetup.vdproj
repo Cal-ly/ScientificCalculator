@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_1A050B961E5C4FFC9A0D9EDDF14583FB"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_A36BBD0DCD514FBE9B34FF46DAAB287C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -191,7 +185,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ScientificCalculatorSetup"
         "ProductCode" = "8:{951A4C8B-8638-485A-8FD0-AC7A3557E14B}"
-        "PackageCode" = "8:{7FB0583C-B971-4FE9-9544-9B9384B1CCB7}"
+        "PackageCode" = "8:{BD3DB730-D1F7-4E3C-B691-A1A4EB526C56}"
         "UpgradeCode" = "8:{D8D4B09C-3733-47DC-8CF0-9AFCA7A463C1}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -319,7 +313,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_1A050B961E5C4FFC9A0D9EDDF14583FB"
+            "Target" = "8:"
             "Folder" = "8:_E2F9FA1D309D4E9E9C2191EFD7AA4196"
             "WorkingFolder" = "8:_EEB405F9099E4FC1A1A41710FA16A080"
             "Icon" = "8:_A36BBD0DCD514FBE9B34FF46DAAB287C"
@@ -724,9 +718,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_1A050B961E5C4FFC9A0D9EDDF14583FB"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_54C922F529494FCD95A9DCD270DA4DD1"
             {
-            "SourcePath" = "8:..\\ScientificCalculator\\obj\\Debug\\net8.0-windows\\ScientificCalculator.dll"
+            "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_EEB405F9099E4FC1A1A41710FA16A080"
@@ -744,7 +738,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
+            "OutputConfiguration" = "8:Release|Any CPU"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{81B783BA-E1FB-496C-BE29-EC7450ABC9A7}"
             "ShowKeyOutput" = "11:TRUE"
