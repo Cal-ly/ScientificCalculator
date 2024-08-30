@@ -19,8 +19,6 @@ A simple yet powerful scientific calculator built using C# and WPF. This calcula
 ## Screenshots
 
 ![Calculator Screenshot1](https://github.com/Cal-ly/ScientificCalculator/blob/master/content/SciCalc%20S1.png)
-![Calculator Screenshot2](https://github.com/Cal-ly/ScientificCalculator/blob/master/content/SciCalc%20S2.png)
-![Calculator Screenshot3](https://github.com/Cal-ly/ScientificCalculator/blob/master/content/SciCalc%20S3.png)
 
 
 ## Installation
