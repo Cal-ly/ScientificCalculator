@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScientificCalculator", "ScientificCalculator\ScientificCalculator.csproj", "{81B783BA-E1FB-496C-BE29-EC7450ABC9A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScientificCalculator", "ScientificCalculator\ScientificCalculator.csproj", "{81B783BA-E1FB-496C-BE29-EC7450ABC9A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary", "CalculatorLibrary\CalculatorLibrary.csproj", "{41C086C4-0EC7-4E2B-8E14-258EAFABF759}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibrary", "CalculatorLibrary\CalculatorLibrary.csproj", "{41C086C4-0EC7-4E2B-8E14-258EAFABF759}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ScientificCalculatorSetup", "ScientificCalculatorSetup\ScientificCalculatorSetup.vdproj", "{CC2AFBD2-E881-43E1-951F-7AAAA19DD44E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,8 @@ Global
 		{41C086C4-0EC7-4E2B-8E14-258EAFABF759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41C086C4-0EC7-4E2B-8E14-258EAFABF759}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41C086C4-0EC7-4E2B-8E14-258EAFABF759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2AFBD2-E881-43E1-951F-7AAAA19DD44E}.Debug|Any CPU.ActiveCfg = Debug
+		{CC2AFBD2-E881-43E1-951F-7AAAA19DD44E}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
