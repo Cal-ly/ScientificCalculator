@@ -3,14 +3,14 @@ name: CI Build and Test
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - name: Checkout code
@@ -19,7 +19,7 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 6.0 # Adjust according to your .NET version
+        dotnet-version: 8.0
 
     - name: Install dependencies
       run: dotnet restore
