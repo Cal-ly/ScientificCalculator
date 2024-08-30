@@ -46,6 +46,11 @@ jobs:
         dotnet build --configuration Release
         dotnet publish --configuration Release -o ScientificCalculatorSetup/
 
+    - name: List output directory contents (for debugging)
+      run: |
+        echo "Listing contents of ScientificCalculatorSetup/ directory:"
+        dir ScientificCalculatorSetup/
+
     - name: Create GitHub Release
       id: create_release
       uses: actions/create-release@v1
