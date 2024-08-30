@@ -27,7 +27,7 @@ A simple yet powerful scientific calculator built using C# and WPF. This calcula
 ### Installing the Calculator
 
 1. **Download the Installer**:
-   - Go to the [Releases](https://github.com/yourusername/ScientificCalculator/releases) page on GitHub.
+   - Go to the [Releases](https://github.com/Cal-ly/ScientificCalculator/releases) page on GitHub.
    - Download the latest `.msi` or `.exe` file.
 
 2. **Run the Installer**:
