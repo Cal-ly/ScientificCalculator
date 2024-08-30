@@ -13,6 +13,18 @@
 "SccProvider" = "8:"
     "Hierarchy"
     {
+        "Entry"
+        {
+        "MsmKey" = "8:_1A050B961E5C4FFC9A0D9EDDF14583FB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A36BBD0DCD514FBE9B34FF46DAAB287C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -31,6 +43,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -47,6 +75,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -78,6 +114,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A36BBD0DCD514FBE9B34FF46DAAB287C"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\iconCalcNBG.ico"
+            "TargetName" = "8:iconCalcNBG.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_EEB405F9099E4FC1A1A41710FA16A080"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -255,6 +311,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D388ED59257C407AA54E8D7911EB7C48"
+            {
+            "Name" = "8:Shortcut to %sPrimary output from ScientificCalculator (Active)"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_1A050B961E5C4FFC9A0D9EDDF14583FB"
+            "Folder" = "8:_E2F9FA1D309D4E9E9C2191EFD7AA4196"
+            "WorkingFolder" = "8:_EEB405F9099E4FC1A1A41710FA16A080"
+            "Icon" = "8:_A36BBD0DCD514FBE9B34FF46DAAB287C"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
@@ -654,9 +724,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_07289200B043490983EF41EB322EE869"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_1A050B961E5C4FFC9A0D9EDDF14583FB"
             {
-            "SourcePath" = "8:"
+            "SourcePath" = "8:..\\ScientificCalculator\\obj\\Debug\\net8.0-windows\\ScientificCalculator.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_EEB405F9099E4FC1A1A41710FA16A080"
@@ -674,8 +744,8 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:Release|Any CPU"
-            "OutputGroupCanonicalName" = "8:PublishItems"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{81B783BA-E1FB-496C-BE29-EC7450ABC9A7}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
