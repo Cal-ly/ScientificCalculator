@@ -1,7 +1,3 @@
-Sure! Here’s a template for a README file that you can use for your scientific calculator project on GitHub. This README includes sections for an overview, features, installation instructions, usage, and more.
-
----
-
 # Scientific Calculator
 
 ![Icon](https://github.com/Cal-ly/ScientificCalculator/blob/master/content/iconCalcNBG.ico)
