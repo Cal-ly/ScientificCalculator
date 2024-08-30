@@ -15,13 +15,19 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_5747F623CE814692A0F61F9C19C910D6"
+        "MsmKey" = "8:_0642EF30D450442BB858CC05E3DF2BED"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_CF7A8BA9D3ED43C7B315032BEE3DF583"
+        "MsmKey" = "8:_D041BC42C5654D17B49293F2B43B8E88"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FA1D47E6B3A54887B5D049AEF55D56B1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -43,6 +49,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -59,6 +73,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -76,11 +106,21 @@
         {
             "LaunchCondition"
             {
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_C60F54076B614036AA8EFE56C655D0AA"
+                {
+                "Name" = "8:.NET Core"
+                "Message" = "8:[VSDNETCOREMSG]"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:https://dotnet.microsoft.com/download/dotnet-core/[NetCoreVerMajorDotMinor]"
+                "IsNETCore" = "11:TRUE"
+                "Architecture" = "2:0"
+                "Runtime" = "2:0"
+                }
             }
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CF7A8BA9D3ED43C7B315032BEE3DF583"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D041BC42C5654D17B49293F2B43B8E88"
             {
             "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\iconCalcNBG.ico"
             "TargetName" = "8:iconCalcNBG.ico"
@@ -157,7 +197,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ScientificCalculatorSetup"
         "ProductCode" = "8:{E8CE030C-6A0D-4F9E-987F-151F192868A8}"
-        "PackageCode" = "8:{77406AB0-114A-465D-8517-97339FB4DB50}"
+        "PackageCode" = "8:{5FBAFAE1-601F-42E7-B991-949389F96447}"
         "UpgradeCode" = "8:{B2742E3F-88C7-4F43-B6D4-DDF82B66D14B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -277,18 +317,18 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0979493B0FF641DCA25EB54EA2F9834E"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CE3DD482AFAB426DAD9E5F3C78EF9F3B"
             {
-            "Name" = "8:Shortcut to %sPrimary output from ScientificCalculator (Release Any CPU)"
+            "Name" = "8:Shortcut to ScientificCalculator"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_5747F623CE814692A0F61F9C19C910D6"
+            "Target" = "8:_FA1D47E6B3A54887B5D049AEF55D56B1"
             "Folder" = "8:_990D2B3D4AC34DE1A36EFF048AF1AD52"
             "WorkingFolder" = "8:_4ED324E5C2D0480DB35DFBC081D7C2D1"
-            "Icon" = "8:"
+            "Icon" = "8:_D041BC42C5654D17B49293F2B43B8E88"
             "Feature" = "8:"
             }
         }
@@ -690,9 +730,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5747F623CE814692A0F61F9C19C910D6"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0642EF30D450442BB858CC05E3DF2BED"
             {
-            "SourcePath" = "8:..\\ScientificCalculator\\obj\\Release\\net8.0-windows\\ScientificCalculator.dll"
+            "SourcePath" = "8:..\\CalculatorLibrary\\obj\\Release\\net8.0\\CalculatorLibrary.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_4ED324E5C2D0480DB35DFBC081D7C2D1"
@@ -710,8 +750,36 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:Release|Any CPU"
+            "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{41C086C4-0EC7-4E2B-8E14-258EAFABF759}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FA1D47E6B3A54887B5D049AEF55D56B1"
+            {
+            "SourcePath" = "8:..\\ScientificCalculator\\obj\\Release\\net8.0-windows\\apphost.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_4ED324E5C2D0480DB35DFBC081D7C2D1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:PublishItems"
             "OutputProjectGuid" = "8:{81B783BA-E1FB-496C-BE29-EC7450ABC9A7}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
