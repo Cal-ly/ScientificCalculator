@@ -1,5 +1,7 @@
-﻿namespace CalculatorLibrary;
+﻿using System;
+using static System.Math;
 
+namespace CalculatorLibrary;
 /// <summary>
 /// Provides basic and advanced mathematical operations.
 /// </summary>
