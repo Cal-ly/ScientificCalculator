@@ -9,6 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibrary", "Calcul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorLibraryTest", "CalculatorLibraryTest\CalculatorLibraryTest.csproj", "{6FF007F7-7ADD-43DD-A0F8-7F261D1C40E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Releases", "Releases", "{EFE050D1-0A97-42CE-9B2A-52A3A4C84DFF}"
+	ProjectSection(SolutionItems) = preProject
+		cicd-setup.yml = cicd-setup.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
