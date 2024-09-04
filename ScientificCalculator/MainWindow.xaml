@@ -19,11 +19,11 @@
         </Grid.ColumnDefinitions>
 
         <!-- Display for results -->
-        <TextBox x:Name="Display" FontSize="24" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch"
-                 IsReadOnly="True" TextAlignment="Right" Height="50" Background="#FFE6B9B9"/>
+        <TextBox x:Name="Display" FontSize="24" Margin="10,10,10,10" VerticalAlignment="Center"
+                 IsReadOnly="True" TextAlignment="Right" Background="#FFE6B9B9" Height="71"/>
 
         <!-- History log -->
-        <ListBox x:Name="HistoryLog" Grid.Row="1" Margin="10" Height="100" Background="#FFE6B9B9"/>
+        <ListBox x:Name="HistoryLog" Grid.Row="1" Margin="10,10,10,10" Background="#FFE6B9B9"/>
 
         <!-- Buttons Grid -->
         <Grid Grid.Row="2" Margin="10">
