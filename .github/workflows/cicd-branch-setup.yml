@@ -28,7 +28,7 @@ jobs:
       run: dotnet test --no-build --verbosity normal --configuration Release
       
   deploy:
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/cicd-setup'
     needs: build-and-test
     runs-on: windows-latest
 
