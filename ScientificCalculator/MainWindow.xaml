@@ -3,6 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Scientific Calculator" Height="450" Width="350">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFFC6101" Offset="0.341"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -14,10 +20,10 @@
 
         <!-- Display for results -->
         <TextBox x:Name="Display" FontSize="24" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch"
-                 IsReadOnly="True" TextAlignment="Right" Height="50"/>
+                 IsReadOnly="True" TextAlignment="Right" Height="50" Background="#FFE6B9B9"/>
 
         <!-- History log -->
-        <ListBox x:Name="HistoryLog" Grid.Row="1" Margin="10" Height="100"/>
+        <ListBox x:Name="HistoryLog" Grid.Row="1" Margin="10" Height="100" Background="#FFE6B9B9"/>
 
         <!-- Buttons Grid -->
         <Grid Grid.Row="2" Margin="10">
@@ -46,7 +52,7 @@
             <Button Content="4" Grid.Row="1" Grid.Column="0" Click="Number_Click" ToolTip="4"/>
             <Button Content="5" Grid.Row="1" Grid.Column="1" Click="Number_Click" ToolTip="5"/>
             <Button Content="6" Grid.Row="1" Grid.Column="2" Click="Number_Click" ToolTip="6"/>
-            <Button Content="*" Grid.Row="1" Grid.Column="3" Click="Operator_Click" ToolTip="Multiply"/>
+            <Button Content="*" Grid.Row="1" Grid.Column="3" Click="Operator_Click" ToolTip="Multiply" Background="#FFDDDDDD"/>
 
             <Button Content="1" Grid.Row="2" Grid.Column="0" Click="Number_Click" ToolTip="1"/>
             <Button Content="2" Grid.Row="2" Grid.Column="1" Click="Number_Click" ToolTip="2"/>
