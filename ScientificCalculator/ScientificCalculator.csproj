@@ -12,8 +12,4 @@
     <ProjectReference Include="..\CalculatorLibrary\CalculatorLibrary.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Release\" />
-  </ItemGroup>
-
 </Project>
