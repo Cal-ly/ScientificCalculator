@@ -91,4 +91,4 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ScientificCalculatorRelease/ScientificCalculatorSetup.msi
           asset_name: ScientificCalculatorSetup.msi
-          asset_content_type: application/octet-stream
+          asset_content_type: application/x-msi
