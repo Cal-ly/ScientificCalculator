@@ -48,12 +48,12 @@ jobs:
 
       - name: Check if MSI file exists
         run: |
-          if exist "ScientificCalculatorRelease\ScientificCalculatorSetup.msi" (
+          if (Test-Path "ScientificCalculatorRelease\ScientificCalculatorSetup.msi") {
             echo "MSI file exists"
-          ) else (
+          } else {
             echo "MSI file does not exist"
             exit 1
-          )
+          }
 
   deploy:
     runs-on: windows-latest
